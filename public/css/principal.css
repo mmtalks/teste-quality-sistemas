@@ -1,0 +1,285 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {
+	padding:0;
+	margin:0;
+}
+a {
+	text-decoration:none;
+}
+a img {
+	border:none;
+}
+body {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	background-color:#f0f0f0;
+	background-image:url(../images/topo_geral.png);
+	background-repeat:repeat-x;
+	color:#4d4d4d;
+}
+input {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color:#4d4d4d;
+}
+#conteudoGeral {
+	width:1000px;
+	min-height:800px;
+	margin:0 auto 0 auto;
+	background-image:url(../images/imgFundoGeral.png);
+	background-repeat:no-repeat;
+	background-position:center;
+}
+#topoGeral {
+	width:1000px;
+	height:85px;
+}
+#logoTopo {
+	background-image:url(../images/logo_topo.png);
+	width:419px;
+	height:70px;
+	float:left;
+	margin:10px 0 0 15px;
+}
+#dirTopo {
+	background-image:url(../images/topo_direita.png);
+	width:328px;
+	height:85px;
+	float:right;
+}
+#baixoGeral {
+	height:600px;
+	margin:15px 0 0 0;
+}
+#titMenu {
+	width:176px;
+	height:30px;
+	background-image:url(../images/imgTopoMenu.png);
+	font-weight:bold;
+	padding:5px 0 0 15px;
+}
+#menuEsq {
+	 width:191px;
+	 border-bottom:1px solid #aaa;
+	 min-height:50px;
+	 background-image:url(../images/imgFundoMenu.png);
+	 float:left;
+}
+#menuEsq a {
+	display:block;
+	line-height:35px;
+	padding:0 0 0 15px;
+	border-bottom:1px solid #dcdcdc;
+	color:#4d4d4d;
+}
+#menuEsq a:hover {
+	background-color:#ebebeb;
+}
+#conteudoDir {
+	border:1px solid #c8c8c8;
+	width:740px;
+	float:left;
+	margin:0 0 0 20px;
+	padding:15px;
+}
+#listaPessoas {
+    width: 740px;
+}
+#listaPessoas h1 {
+	font-size:16px;
+    width: 740px;
+	border-bottom:1px solid #c8c8c8;
+	padding:0 0 5px 0;
+	margin:0 0 15px 0;
+}
+#tLista {
+	width:100%;
+	margin:10px 0 0 0;      
+}
+#tLista td,#tLista th {
+	padding:8px 8px 8px 8px;
+	font-size:14px;
+}
+#tLista td {
+	border-left:1px solid #ebf2f7;
+}
+#tLista th {
+	border-left:1px solid #ebf2f7;
+	background-color:#4d4d4d;
+	color:#FFF;
+}
+
+#tListaCad {
+	width:100%;
+}
+#tListaCad td,#tListaCad th {
+	padding:4px;
+	border-left:1px solid #ebf2f7;
+	font-size:14px;
+}
+#tListaCad th {	
+	background-color:#4d4d4d;
+	color:#FFF;
+}
+
+.btVerde {
+	display:block;
+	height:12px;
+	width:12px;
+	background-image:url(../images/imgBolaVerde.png);
+}
+.btCinza {
+	display:block;
+	height:12px;
+	width:12px;
+	background-image:url(../images/imgBolaCinza.png);
+}
+.btSeta1 {
+	display:block;
+	height:17px;
+	width:13px;
+	background-image:url(../images/imgSetasGrandes.png);
+	float:left;
+	margin:3px;
+}
+.btSeta2 {
+	display:block;
+	height:17px;
+	width:13px;
+	background-image:url(../images/imgSetasGrandes.png);
+	background-position:13px 0;
+	float:left;
+	margin:3px;
+}
+#pags {
+	float:left;
+        margin-top: 3px;
+}
+#paginacao {
+	border-top:1px solid #c8c8c8;
+	margin:15px 0 0 0;
+	padding:5px 0 0 0;
+}
+#paginacao select {
+    margin-top: 2px;
+    margin-left: 3px;
+}
+#paginas {
+	float:left;
+}
+.linkUser {
+	color:#4d4d4d;
+}
+.linkUser:hover {
+	text-decoration:underline;
+}
+#formCadastrar input {
+	border:1px solid #9d9d9d;
+	width:710px;
+	padding:5px;
+	margin:0 0 10px 0;
+}
+#formCadastrar label {
+	padding:0 0 0 6px;
+}
+.btPadrao {
+	display:block;
+	width:80px;
+	line-height:30px;
+	background-image:url(../images/btnGeral.png);
+	text-align:center;
+	color:#4d4d4d;
+	clear:both;
+}
+.btPadrao:hover {
+	background-position:0 -30px;
+}
+.btPadraoExcluir {
+	display:block;
+	width:80px;
+	line-height:30px;
+	background-image:url(../images/btnGeral.png);
+	text-align:center;
+	color:#4d4d4d;
+	margin:0 0 15px 0;
+}
+.btPadraoExcluir:hover {
+	background-position:0 -23px;
+}
+.btAdicionar {
+    display:block;
+    height:16px;
+    width:16px;
+    background-image:url(../images/btAdd.png);
+}
+.btRemover {
+    display:block;
+    height:16px;
+    width:16px;
+    background-image:url(../images/btRemover.png);    
+}
+#infoDep {
+    width: 550px;
+}
+#infoDep a{
+    margin-top: 3px;
+}
+#fotoCadastro {  
+    width: 77px;
+    height: 77px;
+    background:#FFF;
+    border: 1px solid #b3b3b3;
+	padding:4px;
+	display:table;
+}
+.tituloTab {
+    font-weight: bold;
+    text-align: right;
+    width: 30%;
+	border:none !important;
+}
+.agrupa {
+    float: left;    
+}
+.agrupa input{
+    height: 22px;
+	border:1px solid #9d9d9d;
+	padding:5px;
+}
+#cNomeDep {
+    width: 375px;
+}
+#cDataNasc {
+    width: 140px;  
+}
+#frmAdicionaDep {
+	margin:10px 0 0 0;
+}
+#cFoto {
+    background: #ffffff;
+}
+.tL {
+	text-align:left;
+}
+.mT {
+	margin:5px 0 0 0 !important;
+}
+.mB {
+	margin:0 0 5px 0;
+}
+.mR {
+	margin:0 10px 5px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
